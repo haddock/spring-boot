@@ -39,7 +39,6 @@ task wrapper(type: Wrapper) {
     gradleVersion = '2.3'
 }
 
-# Heroku
 task stage {
     dependsOn build
 }
