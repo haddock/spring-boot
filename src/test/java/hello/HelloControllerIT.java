@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 import java.net.URL;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = Application.class)
+@SpringApplicationConfiguration(classes = BootElastic.class)
 @WebAppConfiguration
 @IntegrationTest({"server.port=0"})
 public class HelloControllerIT {

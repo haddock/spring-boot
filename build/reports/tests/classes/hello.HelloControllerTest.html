@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.036s</div>
+<div class="counter">0.041s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">getHello</td>
-<td>0.036s</td>
+<td>0.041s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,11 +87,9 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2015-12-08 15:35:23.977  INFO 26659 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [hello.HelloControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2015-12-08 15:35:23.979  INFO 26659 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2015-12-08 15:35:23.980  INFO 26659 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
-2015-12-08 15:35:23.981  INFO 26659 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-2015-12-08 15:35:23.982  INFO 26659 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@532dce6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a0852c0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@56a17169, org.springframework.test.context.support.DirtiesContextTestExecutionListener@15e67fb0]
+<pre>2015-12-10 12:51:51.759  INFO 84644 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [hello.HelloControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2015-12-10 12:51:51.761  INFO 84644 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2015-12-10 12:51:51.768  INFO 84644 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@433a58d2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19fae6b1, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@74794581, org.springframework.test.context.support.DirtiesContextTestExecutionListener@169d031c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7f025d5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@49f184f4]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -101,15 +99,15 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v1.3.0.RELEASE)
 
-2015-12-08 15:35:24.023  INFO 26659 --- [    Test worker] hello.HelloControllerTest                : Starting HelloControllerTest on milou with PID 26659 (/Users/fredrik.bergljung/code/springboot/build/classes/test started by fredrik.bergljung in /Users/fredrik.bergljung/code/springboot)
-2015-12-08 15:35:24.024  INFO 26659 --- [    Test worker] hello.HelloControllerTest                : No profiles are active
-2015-12-08 15:35:24.026  INFO 26659 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@762c107b: startup date [Tue Dec 08 15:35:24 CET 2015]; root of context hierarchy
-2015-12-08 15:35:24.038  INFO 26659 --- [    Test worker] hello.HelloControllerTest                : Started HelloControllerTest in 0.047 seconds (JVM running for 5.248)
-2015-12-08 15:35:24.053  INFO 26659 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/]}&quot; onto public java.lang.String hello.HelloController.index()
-2015-12-08 15:35:24.062  INFO 26659 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@21a9e83d
-2015-12-08 15:35:24.068  INFO 26659 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
-2015-12-08 15:35:24.068  INFO 26659 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
-2015-12-08 15:35:24.068  INFO 26659 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+2015-12-10 12:51:51.822  INFO 84644 --- [    Test worker] hello.HelloControllerTest                : Starting HelloControllerTest on milou with PID 84644 (/Users/fredrik.bergljung/code/springboot/build/classes/test started by fredrik.bergljung in /Users/fredrik.bergljung/code/springboot)
+2015-12-10 12:51:51.822  INFO 84644 --- [    Test worker] hello.HelloControllerTest                : No profiles are active
+2015-12-10 12:51:51.825  INFO 84644 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1de9f717: startup date [Thu Dec 10 12:51:51 CET 2015]; root of context hierarchy
+2015-12-10 12:51:51.839  INFO 84644 --- [    Test worker] hello.HelloControllerTest                : Started HelloControllerTest in 0.055 seconds (JVM running for 8.489)
+2015-12-10 12:51:51.856  INFO 84644 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/]}&quot; onto public java.lang.String hello.HelloController.index()
+2015-12-10 12:51:51.867  INFO 84644 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@727290a0
+2015-12-10 12:51:51.875  INFO 84644 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2015-12-10 12:51:51.875  INFO 84644 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2015-12-10 12:51:51.876  INFO 84644 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
 </pre>
 </span>
 </div>
@@ -121,7 +119,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.7</a> at 2015-dec-08 15:35:24</p>
+<a href="http://www.gradle.org">Gradle 2.7</a> at Dec 10, 2015 12:51:52 PM</p>
 </div>
 </div>
 </body>
