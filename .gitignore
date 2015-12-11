@@ -1,6 +1,6 @@
 build/**/
 data/**/
-.gradle
+.gradle/**/
 .idea
 out
 *.iml
